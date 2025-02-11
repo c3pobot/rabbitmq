@@ -1,6 +1,6 @@
 #!/bin/bash
 file1=$(head -n 1 .testregistry)
-tag='c3po/rabbitmq'
+tag='c3pobot/rabbitmq'
 if [[ "$file1" ]]
 then
   echo 'personal registry set'
